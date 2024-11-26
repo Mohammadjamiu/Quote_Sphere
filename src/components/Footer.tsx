@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
       <div className="   p-4 ">
         <div className=" text-center text-[15px] md:text-[17px] text-gray-500">
           <p className="mt-1">
-            Made with ☕️ and 💖 by
+            QuoteSphere made with ☕️ and 💖 by
             <a
               href="https://github.com/Mohammadjamiu"
               className="bg-gradient-to-r pl-1 pb-0.5 from-primary to-primary bg-[length:0px_3px] hover:bg-[length:100%_3px] hover:text-primary bg-left-bottom bg-no-repeat transition-[background-size] duration-500"

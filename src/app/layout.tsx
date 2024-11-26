@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${poppins.variable}  font-poppins overflow-x-hidden h-[calc(100vh_-_180px)]`}
+        className={`${poppins.variable}  font-poppins overflow-x-hidden h-[calc(100vh_-_200px)]`}
       >
         <ThemeProvider
           attribute="class"

@@ -10,9 +10,9 @@ const Logo = () => {
       <span className="font-semibold text-[18px] md:text-xl bg-primary text-center pl-[5.5px] md:pl-[6.5px] px-[4px] md:px-[5px] py-[2px] md:py-1 rounded text-light mr-2">
         Q.
       </span>
-      <span className="  tracking-tight font-semibold text-lg md:text-xl ">
+      {/* <span className="  tracking-tight font-semibold text-lg md:text-xl ">
         QuoteSphere
-      </span>
+      </span> */}
     </Link>
   );
 };
