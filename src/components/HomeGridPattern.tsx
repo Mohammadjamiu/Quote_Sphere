@@ -14,9 +14,8 @@ export function GridPatternDashed({ quote }: any) {
   const author = authorMatch ? authorMatch[1] : ""; // Extract the author
 
   return (
-    <div className="relative flex size-full items-center justify-center  ">
-      <p className="z-0 whitespace-pre-wrap text-center text-5xl font-medium tracking-tighter text-black dark:text-white"></p>
-      <blockquote className="relative  ">
+    <div className="relative flex  size-full items-center justify-center  ">
+      <blockquote className="relative  max-w-3xl mx-9 m-auto px-6   ">
         <svg
           className="absolute -top-6 -start-8 size-16 text-gray-100 dark:text-neutral-700"
           width="16"
@@ -32,8 +31,8 @@ export function GridPatternDashed({ quote }: any) {
           ></path>
         </svg>
 
-        <div className="relative z-10 ">
-          <p className="text-gray-900 text-xl md:text-2xl dark:text-white">
+        <div className="relative z-10  ">
+          <p className="text-gray-900 text-[18px] md:text-[22px] dark:text-white">
             <em>{quoteText}</em>
           </p>
         </div>

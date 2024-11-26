@@ -9,7 +9,6 @@ const Home = async () => {
   const quote: string | null = await redis.srandmember<string>(
     "inspire_quotes"
   );
-  // console.log(quote);
 
   return (
     <>

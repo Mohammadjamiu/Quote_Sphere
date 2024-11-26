@@ -3,7 +3,6 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { GridPatternDashed } from "@/components/HomeGridPattern";
 import { ThemeProvider } from "@/components/ThemeProvider";
 
 const poppins = Poppins({
@@ -25,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${poppins.variable}  font-poppins overflow-x-hidden h-screen`}
+        className={`${poppins.variable}  font-poppins overflow-x-hidden h-[calc(100vh_-_180px)]`}
       >
         <ThemeProvider
           attribute="class"
