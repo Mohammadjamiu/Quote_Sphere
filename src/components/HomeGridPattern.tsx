@@ -3,7 +3,11 @@
 import { cn } from "@/lib/utils";
 import GridPattern from "./ui/grid-pattern";
 
-export function GridPatternDashed({ quote }: any) {
+interface GridPatternDashedProps {
+  quote: string;
+}
+
+export function GridPatternDashed({ quote }: GridPatternDashedProps) {
   const quoteRegex = /Quote: “(.+?)”/; // Match text inside “ ”
   const authorRegex = /Author: (.+)$/; // Match text after Author: till the comma
 
@@ -14,8 +18,8 @@ export function GridPatternDashed({ quote }: any) {
   const author = authorMatch ? authorMatch[1] : ""; // Extract the author
 
   return (
-    <div className="relative flex  size-full items-center justify-center  ">
-      <blockquote className="relative  max-w-3xl mx-9 m-auto px-6   ">
+    <div className="relative flex size-full items-center justify-center">
+      <blockquote className="relative max-w-3xl mx-9 m-auto px-6">
         <svg
           className="absolute -top-6 -start-8 size-16 text-gray-100 dark:text-neutral-700"
           width="16"
@@ -31,7 +35,7 @@ export function GridPatternDashed({ quote }: any) {
           ></path>
         </svg>
 
-        <div className="relative z-10  ">
+        <div className="relative z-10">
           <p className="text-gray-900 text-[18px] md:text-[22px] dark:text-white">
             <em>{quoteText}</em>
           </p>
