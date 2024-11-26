@@ -1,4 +1,4 @@
-import { ArrowRightIcon, ArrowDownIcon } from "@radix-ui/react-icons";
+import { ArrowDownIcon } from "@radix-ui/react-icons";
 
 import { cn } from "@/lib/utils";
 import AnimatedShinyText from "./ui/animated-shiny-text";
