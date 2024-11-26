@@ -12,7 +12,9 @@ const Home = async () => {
 
   return (
     <>
-      <GridPatternDashed quote={quote} />
+      <GridPatternDashed
+        quote={quote || "Quote: “Default Quote” Author: Anonymous"}
+      />
     </>
   );
 };
