@@ -21,7 +21,7 @@ export function GridPatternDashed({ quote }: GridPatternDashedProps) {
       {" "}
       <div className="relative flex flex-col size-full items-center justify-center  m-auto">
         <AnimatedShinyTextDemo />
-        <blockquote className="relative max-w-3xl mx-9  mt-8 px-6">
+        <blockquote className="relative max-w-3xl mx-9  mt-10 px-6">
           <svg
             className="absolute -top-6 -start-8 size-16 text-gray-100 dark:text-neutral-700"
             width="16"
